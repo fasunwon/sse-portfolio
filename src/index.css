@@ -42,6 +42,46 @@
     rgba(60, 51, 80, 0) 100%
   );
 }
+.violet-text-gradient{
+  background: #804dee; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #804dee,
+    #af19f5
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #804dee,
+    #af19f5
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.yellow-text-gradient {
+  background: #eeeb4d; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to top,
+    #eeeb4d,
+    #f5af19
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to top,
+    #eeeb4d,
+    #f5af19
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.red-gradient {
+  background: #EE3E38;
+  background: linear-gradient(-90deg, #EE3E38 0%, rgba(80, 51, 51, 0) 100%);
+  background: -webkit-linear-gradient(
+    -90deg,
+    #EE3E38 0%,
+    rgba(80, 51, 51, 0) 100%
+  );
+}
 
 .green-pink-gradient {
   background: "#00cea8";
