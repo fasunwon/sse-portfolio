@@ -3,6 +3,7 @@ import { styles } from "../styles";
 import { SectionWrapper } from "../hoc";
 import { fadeIn, textVariant } from "../utils/motion";
 import { testimonials } from "../constants/constants";
+import profilePick from "../assets/profile1.svg";
 const FeedbackCard = ({
   index,
   testimonial,
@@ -30,7 +31,7 @@ const FeedbackCard = ({
             </p>
           </div>
           <img
-            src={image}
+            src={profilePick}
             alt={`feedback-by-${name}`}
             className="w-10 h-10 rounded-full object-cover"
           />
