@@ -22,6 +22,7 @@ import {
   sgi,
   evrazna,
   rrrc,
+  fcc,
 } from "../assets";
 
 export const navLinks = [
@@ -150,10 +151,20 @@ const experiences = [
     company_name: "DevPro",
     icon: devpro,
     iconBg: "#E6DEDD",
-    date: "May 2023 - Present",
+    date: "May 2023 - April 2025",
     points: [
       "Design and develop applications using Java technologies: Spring Boot, Angular, Lombok, JPA, TypeScript, React and Liquibase.",
       "Work closely with team members to write high-quality code, ensuring applications are scalable, maintainable, and performant meeting clients and endusers needs.",
+    ],
+  },
+  {
+    title: "Developer",
+    company_name: "FCC",
+    icon: fcc,
+    iconBg: "#E6DEDD",
+    date: "April 2025 - Present",
+    points: [
+      "Designing internal tools to help other developers within the company implement new features more clean and effeciently",
     ],
   },
 ];
